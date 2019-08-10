@@ -3,6 +3,8 @@
 
 A simple page where react components can be edited, and moved around, on a grid layout. Supports export to a react based page structure.
 
+**[Live version](https://varevarao.github.io/potd_6_react_canvas/)**
+
 ## Available Scripts
 
 In the project directory, you can run:
