@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/potd_6_react_canvas/precache-manifest.fc7088d7b93afcf96b8d735a6c69e393.js"
+  "/potd_6_react_canvas/precache-manifest.7d795c9ff87459ccee4d098680f7cde6.js"
 );
 
 self.addEventListener('message', (event) => {
