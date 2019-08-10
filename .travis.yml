@@ -13,3 +13,6 @@ deploy:
   local_dir: 'build/'
   on:
     branch: gh_pages
+branches:
+  - master
+  - gh_pages
