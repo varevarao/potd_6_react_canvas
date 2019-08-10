@@ -13,7 +13,6 @@ deploy:
   keep_history: true
   local_dir: 'build/'
   on:
-    branch: gh_pages
+    branch: master
 branches:
   - master
-  - gh_pages
