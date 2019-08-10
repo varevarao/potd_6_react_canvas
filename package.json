@@ -9,6 +9,7 @@
   "repository": {
     "url": "https://github.com/varevarao/potd_6_react_canvas"
   },
+  "homepage": "https://varevarao.github.io/potd_6_react_canvas",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
