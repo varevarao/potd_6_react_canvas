@@ -1,7 +1,8 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import '../styles/CanvasFrame.css';
 
-export default class CanvasFrame extends React.PureComponent {
+class CanvasFrame extends React.PureComponent {
     render() {
         return (
             <div className="CanvasFrame">
@@ -10,3 +11,13 @@ export default class CanvasFrame extends React.PureComponent {
         );
     }
 }
+
+const mapStateToProps = state => ({
+
+});
+
+const mapDispatchToProps = dispatch => ({
+
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(CanvasFrame);

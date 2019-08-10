@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import '../styles/ComponentCanvas.css';
 
 /**
@@ -14,7 +15,7 @@ import '../styles/ComponentCanvas.css';
  * 3. On each drag move, check which grid breakpoints lie within the range
  *      Calculate the extemes, and the rest can be interpolated
  */
-export default class ComponentCanvas extends React.PureComponent {
+class ComponentCanvas extends React.PureComponent {
     render() {
         return (
             <div className="ComponentCanvas">
@@ -23,3 +24,13 @@ export default class ComponentCanvas extends React.PureComponent {
         )
     }
 }
+
+const mapStateToProps = state => ({
+
+});
+
+const mapDispatchToProps = dispatch => ({
+
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(ComponentCanvas);
