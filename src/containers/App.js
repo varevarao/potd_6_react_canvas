@@ -7,7 +7,11 @@ import initializeStore from '../store';
 import { externalsLoaded} from '../store/actions/app';
 
 export default class App extends React.PureComponent {
-  store = initializeStore();
+  constructor(props) {
+    super(props);
+    
+    this.store = initializeStore();
+  }
 
   componentDidMount() {
     const { components } = this.props;
