@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/potd_6_react_canvas/static/css/main.1f2fdcc1.chunk.css",
-    "main.js": "/potd_6_react_canvas/static/js/main.1af81890.chunk.js",
-    "main.js.map": "/potd_6_react_canvas/static/js/main.1af81890.chunk.js.map",
+    "main.js": "/potd_6_react_canvas/static/js/main.0b301483.chunk.js",
+    "main.js.map": "/potd_6_react_canvas/static/js/main.0b301483.chunk.js.map",
     "runtime~main.js": "/potd_6_react_canvas/static/js/runtime~main.e2b902d9.js",
     "runtime~main.js.map": "/potd_6_react_canvas/static/js/runtime~main.e2b902d9.js.map",
-    "static/js/2.bc945866.chunk.js": "/potd_6_react_canvas/static/js/2.bc945866.chunk.js",
-    "static/js/2.bc945866.chunk.js.map": "/potd_6_react_canvas/static/js/2.bc945866.chunk.js.map",
+    "static/js/2.8aee6ce3.chunk.js": "/potd_6_react_canvas/static/js/2.8aee6ce3.chunk.js",
+    "static/js/2.8aee6ce3.chunk.js.map": "/potd_6_react_canvas/static/js/2.8aee6ce3.chunk.js.map",
     "index.html": "/potd_6_react_canvas/index.html",
-    "precache-manifest.7d795c9ff87459ccee4d098680f7cde6.js": "/potd_6_react_canvas/precache-manifest.7d795c9ff87459ccee4d098680f7cde6.js",
+    "precache-manifest.f0704c1ffb771fa9125a4c87999fe97d.js": "/potd_6_react_canvas/precache-manifest.f0704c1ffb771fa9125a4c87999fe97d.js",
     "service-worker.js": "/potd_6_react_canvas/service-worker.js",
     "static/css/main.1f2fdcc1.chunk.css.map": "/potd_6_react_canvas/static/css/main.1f2fdcc1.chunk.css.map"
   }
