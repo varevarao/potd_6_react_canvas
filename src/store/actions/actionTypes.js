@@ -13,6 +13,7 @@ const mapActionTypes = (typeArray, prefix) => typeArray.reduce(
  */
 export const app = mapActionTypes([
     'START_LOAD',
+    'EXTERNALS_LOADED',
     'END_LOAD',
     'SHOW_LOADER',
     'HIDE_LOADER'
@@ -29,7 +30,7 @@ export const grid = mapActionTypes([
  * Canvas actions
  */
 export const canvas = mapActionTypes([
-    'ADD_CHILDREN',
     'ADD_CHILD',
-    'MOVE_CHILD'
+    'MOVE_CHILD',
+    'REMOVE_CHILD'
 ], 'CANVAS');

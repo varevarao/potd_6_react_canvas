@@ -1,25 +1,28 @@
 import React from 'react';
-import { connect } from 'react-redux';
+import { Provider } from 'react-redux';
 import CanvasFrame from '../components/CanvasFrame';
 import ComponentCanvas from '../components/ComponentCanvas';
 import '../styles/App.css';
+import initializeStore from '../store';
+import { externalsLoaded} from '../store/actions/app';
 
-function App() {
-  return (
-    <div className="App">
-      <CanvasFrame>
-        <ComponentCanvas />
-      </CanvasFrame>
-    </div>
-  );
+export default class App extends React.PureComponent {
+  store = initializeStore();
+
+  componentDidMount() {
+    const { components } = this.props;
+    this.store.dispatch(externalsLoaded(components));
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <Provider store={this.store}>
+          <CanvasFrame>
+            <ComponentCanvas />
+          </CanvasFrame>
+        </Provider>
+      </div>
+    );
+  }
 }
-
-const mapStateToProps = state => ({
-
-});
-
-const mapDispatchToProps = dispatch => ({
-
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(App);

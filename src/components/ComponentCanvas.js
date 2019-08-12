@@ -16,7 +16,18 @@ import '../styles/ComponentCanvas.css';
  *      Calculate the extemes, and the rest can be interpolated
  */
 class ComponentCanvas extends React.PureComponent {
+    /**
+     * Either creates a new CanvasElement wrapping the provided component,
+     * or if the component was previously created, returns the ref
+     * 
+     * @param module React element to wrap
+     */
+    getorMakeElementFrom(module) {
+
+    }
+
     render() {
+        // Pick up react elements to be displayed
         return (
             <div className="ComponentCanvas">
 
@@ -26,7 +37,7 @@ class ComponentCanvas extends React.PureComponent {
 }
 
 const mapStateToProps = state => ({
-
+    elements: state.elements
 });
 
 const mapDispatchToProps = dispatch => ({

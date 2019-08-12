@@ -1,6 +1,7 @@
 import { applyMiddleware, compose, createStore } from 'redux';
 import { load, save } from 'redux-localstorage-simple';
 import rootReducer from './reducers';
+import thunk from 'redux-thunk';
 
 const LOCALSTORAGE_CONFIG = {
     namespace: 'component-canvas',
@@ -9,6 +10,7 @@ const LOCALSTORAGE_CONFIG = {
 
 const middleware = [
     save(LOCALSTORAGE_CONFIG),
+    thunk
 ];
 
 const composeEnhancers =
