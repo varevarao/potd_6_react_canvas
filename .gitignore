@@ -85,6 +85,3 @@ yarn-error.log*
 
 # VS Code
 .history/
-
-# Compiled code
-dist/
