@@ -9,7 +9,7 @@ import '../styles/CanvasFrame.css';
  */
 const FrameLeft = ({ components }) => {
     const options = [];
-    for (let [key, component] of Object.entries(components)) {
+    for (let [key, ] of Object.entries(components)) {
         options.push(
             <option key={uid(key)}>{key}</option>
         )

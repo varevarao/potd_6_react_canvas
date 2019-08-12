@@ -10,6 +10,7 @@ const canvasReducer = (state = inititalState, action) => {
             return {
                 ...state,
             }
+        default:
     }
 
     return state;

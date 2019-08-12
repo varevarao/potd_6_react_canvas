@@ -6,7 +6,7 @@ const inititalState = {
 }
 
 const appReducer = (state = inititalState, action) => {
-    switch(action.type) {
+    switch (action.type) {
         case actionTypes.EXTERNALS_LOADED:
             return {
                 ...state,
@@ -15,6 +15,7 @@ const appReducer = (state = inititalState, action) => {
                     ...action.payload
                 }
             }
+        default:
     }
 
     return state;
