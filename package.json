@@ -48,11 +48,15 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.5"
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0"
   },
   "babel": {
     "presets": [
-      "@babel/react"
+      "@babel/preset-env",
+      "@babel/preset-react"
     ]
   }
 }
